@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH's String Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/c4c1a24cc1.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Portfolio for JH">
+    <meta name="author" content="JH">
+    <link rel="icon" type="imgs/png" href="imgs/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=EB+Garamond:ital,wght@1,400;1,600;1,700&family=League+Gothic&family=Montserrat:wght@300&family=Mulish:ital@1&family=Nanum+Brush+Script&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@700&family=Playfair+Display&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;1,500&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <!-- navbar -->
+     <nav id="navbar">
+        <div class="navbar__logo">
+        <img src="imgs/favicon_1.png"></img>
+        <a href="#">JH's String Studio</a>
+      </div>
+        <ul class="navbar__menu">
+          <ul class="navbar__menu__item active" data-link="#home">Home</ul>
+          <ul class="navbar__menu__item" data-link="#about">About</ul>
+          <ul class="navbar__menu__item" data-link="#skills">Skills</ul>
+          <ul class="navbar__menu__item" data-link="#activity">Activity</ul>
+          <ul class="navbar__menu__item" data-link="#review">Review</ul>
+          <ul class="navbar__menu__item" data-link="#contact">Contact</ul>
+        </ul>
+      
+<!-- Toggle button-->
+<button class="navbar__toggle-btn"> 
+  <i class="fa-solid fa-bars"></i>
+</button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img src="imgs/main1_1.jpg" 
+        alt="JH's string studio" 
+        class="home__main"/>
+        <h1 class="home__title">Welcome, <br/>JH's String Studio</h1>
+        <h2 class="home__description">Music gives happiness</h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+
+    <!-- about  -->
+    <section id="about" class="section section__container">
+      <h1>About us</h1>
+      <p>JH's Sting Studio에서는 아직 음악을 경험해 보지 못한 유아, 성인으로서 어릴 적 못다 한 악기 연주의 꿈을 이루시고 싶으신 분,
+        취미 생활로 처음 접해보는 악기의 연주법을 배우고 싶으신 분, 또는 뛰어난 재능을 가진 어린 영재들을 발굴하기도 하며
+        연령, 음악적 성장 정도의 높낮음, 전공자, 비전공자, 클래식, 재즈 혹은 크로스오버 장르 등을 가리지 않고
+        각각의 수강생분들을 위하여 최적화된 음악적 환경을 제공합니다.</p>
+        <div class="about__category">
+          <div class="category">
+            <div class="category__icon">
+              <i class="fa-solid fa-child-reaching"></i>
+            </div>
+            <h2 class="category__title">Kids</h2>
+            <p class="category__description">아이들의 발달에 도움이 되는 <br/>수업들로 가득합니다.</p>
+          </div>
+          <div class="category">
+            <div class="category__icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <h2 class="category__title">Teens</h2>
+            <br class="category__description">전공을 준비하는 학생들에게 <br/>보다 전문적인 레슨을 제공합니다.</p>
+          </div>
+          <div class="category">
+            <div class="category__icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h2 class="category__title">Adults</h2>
+            <br class="category__description">어릴 적 못다 한 악기 <br/>연주의 꿈을 이루시고 싶으신 <br/>분들에게 무대 경험을 선사합니다.</p>
+          </div>
+        </div>
+    </section>
+    <!--  skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <p>악기를 통해 집중력 향상과 두뇌계발 그리고 정서적 안정을 주는 것은 이제 모두가 아는 사실입니다. <br>
+          우리 JH's String Studio에서는 더 나아가 좋은 사운드를 만들어낼 수 있는 자질 있는 연주자로 키워내는 게 목표입니다.<br>
+          아래의 표는 JH's String Studio 졸업생들의 평균 Skill 점수입니다. </p>
+  <div class="skillset">
+    <div class="skillset__left">
+      <h3 class="skillset__title">Skills</h3>
+      <div class="skill">
+        <div class="skill__description">
+          <span>Confidence</span>
+          <span>90%</span>
+        </div>
+        <div class="skill__bar">
+          <div class="skill__value" style="width: 90%;" ></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill__description">
+          <span>Emotion</span>
+          <span>87%</span>
+        </div>
+        <div class="skill__bar">
+          <div class="skill__value"style="width: 87%;" ></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill__description">
+          <span>Beat</span>
+          <span>95%</span>
+        </div>
+        <div class="skill__bar">
+          <div class="skill__value"style="width: 95%;" ></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill__description">
+          <span>Concerto Skill</span>
+          <span>77%</span>
+        </div>
+        <div class="skill__bar">
+          <div class="skill__value"style="width: 77%;" ></div>
+        </div>
+      </div>
+    </div>
+
+  <div class="skillset__right">
+  <div class="technique">
+    <h3 class="skillset__title">Technique</h3>
+    <ul class="technique__list">
+      <li><span>drawing a bow</span></li>
+      <li><span>vibrato</span></li>
+      <li><span>harmonics</span></li>
+      <li><span>glissando</span></li>
+      <li><span>trill</span></li>
+    </ul>
+  </div>
+  <div class="etc">
+    <h3 class="skillset__title">ETC</h3>
+    <ul class="etc__list">
+      <li><span>Solo performance</span></li>
+      <li><span>Orchestra</span></li>
+      <li><span>String quartet</span></li>
+    </ul>
+  </div>
+</div>
+    </section>
+
+    <!--  activity -->
+    <section id="activity" class="section">
+      <div class="section__container">
+      <h1>Activity</h1>
+      <div class="activity__categories">
+        <button class="category__btn selected" data-filter="*">
+          All<span class="category__count">8</span>
+        </button>
+
+        <button class="category__btn" data-filter="violin">
+          Violin<span class="category__count">3</span>
+        </button>
+
+        <button class="category__btn" data-filter="cello">
+          Cello<span class="category__count">2</span>
+        </button>
+
+        <button class="category__btn" data-filter="orchestra">
+          Orchestra<span class="category__count">3</span>
+        </button>
+      </div>
+
+      <div class="activity__projects">
+        
+        <a href="" class="projects"
+        data-type="violin"
+        >
+        <img 
+        class="project__img"
+        src="imgs/violin.jpg" 
+        alt="violin" />
+        <div class="project__description">
+          <h3>Group Lesson</h3>
+          <span>합주의 기본기를 다질 수 있는 바이올린 레슨 시간</span>
+        </div>
+        </a>
+   
+        <a href="" class="projects"
+        data-type="violin"
+        target="blank"
+        >
+          <img 
+          class="project__img" 
+          src="imgs/violin2.jpg" 
+          alt="violin"
+          />
+          <div class="project__description">
+          <h3>Family Lesson</h3>
+          <span>부모님과 함께 수업하며 서로의 감정을 더 풍부하게 교류할 수 있는 시간</span>
+          </div>
+        </a>
+
+        <a 
+        href="" 
+        class="projects" 
+        data-type="violin"  
+        target="blank">
+        <img class="project__img" src="imgs/violin3.png" alt="violin" />
+        <div class="project__description">
+          <h3>1:1 Lesson</h3>
+          <span>학생의 섬세한 감정을 더욱 살려주며 바이올린을 처음 배우는 학생들에게는 기본기를 탄탄하게 학습할 수 있는 시간</span>
+        </div>
+        </a>
+
+        <a href="" class="projects" data-type="cello">
+          <img class="project__img" src="imgs/cello.png" alt="" />
+          <div class="project__description">
+          <h3>1:1 Lesson</h3>
+          <span>학생의 섬세한 감정을 더욱 살려주며 첼로를 처음 배우는 학생들에게는 기본기를 탄탄하게 학습할 수 있는 시간</span>
+          </div>
+        </a>
+
+        <a href="" class="projects" data-type="cello">
+          <img class="project__img" src="imgs/cello2.jpg" alt="" />
+          <div class="project__description">
+          <h3>1:1 Lesson</h3>
+          <span>학생의 섬세한 감정을 더욱 살려주며 첼로를 처음 배우는 학생들에게는 기본기를 탄탄하게 학습할 수 있는 시간</span>
+          </div>
+        </a>
+          
+        <a href="" class="projects" data-type="orchestra">
+          <img class="project__img" src="imgs/orchestra.jpg" alt="" />
+          <div class="project__description">
+          <h3>orchestra</h3>
+          <span>오케스트라 연주를 통해 상호협력 문화를 배우며, 하나의 목표를 세우고 이루어나가는 단일공동체를 경험</span>
+          </div>
+        </a>
+          
+        <a href="" class="projects" data-type="orchestra">
+          <img class="project__img" src="imgs/orchestra2.jpg" alt="" />
+          <div class="project__description">
+          <h3>orchestra</h3>
+          <span>참여를 원하는 모든 아동이 꿈의 오케스트라 교육을 받을 수 있도록 참여범위와 단원 수를 확대할 예정</span>
+          </div>
+        </a>
+          
+        <a href="" class="projects" data-type="orchestra">
+          <img class="project__img" src="imgs/orchestra3.jpg" alt="" />
+          <div class="project__description">
+          <h3>orchestra</h3>
+          <span>2시간 동안 진행되는 수업을 통해 강사와 학생이 서로 교감하고 소통</span>
+        </div>
+        </a>
+      </div>
+     </div>
+    </section>
+
+
+
+    <!--  review -->
+    <section id="review" class="section">
+      <div class="section__container">    
+        <h1>Review</h1>
+        <h3>See what they say about JH's String Studio</h3>
+        <div class="review">
+          <div class="reviewer">
+            <img class="review__avatar" src="imgs/reviewer.jpg" alt="reviewer">
+            <div class="review__speech-bubble">
+              <p>아이와 함께 연주를 하면서 많은 시간을 보낼 수 있어서 좋았습니다.</p>
+              <p class="name">Sally's Mom</p>
+             </div>
+          </div>
+          <div class="reviewer">
+            <div class="review__speech-bubble">
+              <p>JD의 행복한 모습을 보며 함께 시간을 보낼 수 있어서 좋았습니다.</p>
+              <p class="name">JD's Mom</p>
+            </div>
+              <img class="review__avatar" src="imgs/reviewer.jpg" alt="reviewer">
+          </div>
+        </div>
+      </div>
+   
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">yojeongll27@gmail.com</h2>
+      <div class="contact__links">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </section>
+ 
+    <!--Arrow up-->
+    <button class="arrow-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</body>
+</html>
